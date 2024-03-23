@@ -704,7 +704,14 @@ $btn-mb: 0.5rem;
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
-  background: var(--sidebar-bg);
+
+  /************* 추가 *************/
+  background: url('/assets/img/background.jpg');
+  background-size: 100% 100%;
+  background-position: center;
+  /********************************/
+
+  /* 원본: background: var(--sidebar-bg); */
   border-right: 1px solid var(--sidebar-border-color);
 
   /* Hide scrollbar for Chrome, Safari and Opera */
@@ -728,14 +735,21 @@ $btn-mb: 0.5rem;
 
   #avatar {
     display: block;
-    width: 7rem;
-    height: 7rem;
-    overflow: hidden;
-    box-shadow: var(--avatar-border-color) 0 0 0 2px;
+
+    /************* 추가 *************/
+    width: 8rem;
+    height: 8rem;
+    /********************************/
+
+    // 원본: width: 7rem;
+    // 원본: height: 7rem;
+    // 원본: overflow: hidden;
+    // 원본: box-shadow: var(--avatar-border-color) 0 0 0 2px;
     transform: translateZ(0); /* fixed the zoom in Safari */
 
     img {
-      transition: transform 0.5s;
+      transition: 0.5s 0.5s;
+      // 원본: transition: transform 0.5s;
 
       &:hover {
         transform: scale(1.2);
