@@ -1,9 +1,9 @@
 ---
-title: Vue로 Github pages를 만드는데 알게된 팁을 정리합니다.
+title: Vue로 Github pages를 만드는데 찾아본 글 링크 정리
 author: cotes
-date: YYYY-MM-DD HH:MM:SS +09:00
+date: 2024-03-26 18:30:00 +09:00
 categories: [Tip, Vue]
-tags: [vue]
+tags: [vue, github pages]
 toc: true
 comments: true
 ---
