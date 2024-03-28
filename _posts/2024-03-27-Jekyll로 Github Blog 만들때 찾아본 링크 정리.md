@@ -1,6 +1,6 @@
 ---
 title: Jekyll로 Github Blog 만들때 찾아본 링크 정리
-author: cotes
+author: jonghoon
 date: 2024-03-27 18:33:00 +09:00
 categories: [Tip, Jekyll]
 tags: [jekyll, github pages]
