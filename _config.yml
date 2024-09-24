@@ -183,6 +183,7 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+      locale: "ko_KR"
   - scope:
       path: assets/js/dist
     values:
