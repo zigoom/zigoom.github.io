@@ -55,17 +55,24 @@
 
     {% for entry in site.data.contact %}
       {% case entry.type %}
-        {% when 'github', 'twitter' %}
+        {% when 'github' %}  {% comment %}   , 'twitter' %} {% endcomment %}
           {%- capture url -%}
             https://{{ entry.type }}.com/{{ site[entry.type].username }}
           {%- endcapture -%}
+
+        {% comment %} 
         {% when 'email' %}
           {% assign email = site.social.email | split: '@' %}
           {%- capture url -%}
             javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
           {%- endcapture -%}
+        {% endcomment %}           
+
         {% when 'rss' %}
-          {% assign url = '/feed.xml' | relative_url %}
+          {%- capture url -%}
+            https://zigoom.github.io/PortfolioPage/ 
+          {%- endcapture -%}
+          {% comment %} {% assign url = '/feed.xml' | relative_url %} {% endcomment %}
         {% else %}
           {% assign url = entry.url %}
       {% endcase %}
