@@ -1,8 +1,8 @@
 ---
-title: Jekyll로 Github Blog 만들때 찾아본 링크 정리
+title: Jekyll로 Github Blog 를 만드는데 찾아본 글 링크 정리
 author: jonghoon
 date: 2024-03-27 18:33:00 +09:00
-categories: [Tip, Jekyll]
+categories: [Tip, T_Github]
 tags: [jekyll, github pages]
 toc: true
 comments: true

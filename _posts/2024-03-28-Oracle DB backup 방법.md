@@ -2,7 +2,7 @@
 title: Oracle DB backup 방법
 author: jonghoon
 date: 2024-03-28 17:50:00 +09:00
-categories: [Tip, Oracle]
+categories: [Tip, T_Oracle]
 tags: [oracle]
 toc: true
 comments: true

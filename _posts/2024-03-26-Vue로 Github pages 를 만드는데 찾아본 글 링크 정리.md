@@ -1,8 +1,8 @@
 ---
-title: Vue로 Github pages를 만드는데 찾아본 글 링크 정리
+title: Vue로 Github pages 를 만드는데 찾아본 글 링크 정리
 author: jonghoon
 date: 2024-03-26 18:30:00 +09:00
-categories: [Tip, Vue]
+categories: [Tip, T_Vue]
 tags: [vue, github pages]
 toc: true
 comments: true

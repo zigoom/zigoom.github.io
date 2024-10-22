@@ -2,7 +2,7 @@
 title: Vue로 만든 포트폴리오 페이지(GitPages로 공개)
 author: jonghoon
 date: 2024-04-25 13:00:00 +09:00
-categories: ["Project", "Vue"]
+categories: [Project, P_Vue]
 tags: [vue, github pages]
 toc: true
 comments: true
